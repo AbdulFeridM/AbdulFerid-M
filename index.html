@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbdulFerid |Full Stack Developer Portfolio</title>
+    <title>Full Stack Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -12,8 +12,8 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="assets/profile.jpg" alt="Profile" class="nav-profile-img">
-                <span>AbdulFerid Portfolio</span>
+                <img src="./assets/profile.jpg" alt="Profile Logo" class="logo-image">
+                Portfolio
             </div>
             <div class="hamburger">
                 <span></span>
@@ -35,7 +35,7 @@
         <div class="hero-content">
             <h1>Hi, I'm <span class="highlight">AbdulFerid Musefa</span></h1>
             <p class="typing-text">I'm a Full Stack Developer</p>
-            <p class="typing-text">MERN Specialist</p>
+            <p>Full Stack Developer | MERN MERN Stack Developer</p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn primary">View Work</a>
                 <a href="#contact" class="btn secondary">Contact Me</a>
@@ -46,23 +46,22 @@
     <!-- About Section -->
     <section id="about" class="about">
         <h2>About Me</h2>
-        <div class="about-content">
-            <!-- Add your image here -->
-            <!-- In the About Section -->
-            <div class="profile-container">
-                <img src="assets/profile.jpg" alt="Profile Picture" class="profile-image animated">
-            </div>
-            <div class="about-text">
-                <p>I am a passionate Full Stack Web Developer specializing in the MERN (MongoDB, Express.js, React.js, Node.js) stack. With a strong foundation in both front-end and back-end development, I create responsive, user-friendly web applications that deliver exceptional user experiences. My expertise includes building scalable APIs, managing databases, implementing secure authentication systems, and crafting intuitive user interfaces. I stay current with the latest web technologies and best practices, ensuring modern and efficient solutions for complex development challenges.</p>
-                <p>As a MERN Stack specialist, I leverage MongoDB's flexible document database, Express.js's robust backend framework, React's powerful front-end library, and Node.js's efficient runtime environment to build full-featured web applications. I have experience with RESTful API design, state management, component-based architecture, and responsive design principles. My commitment to clean code, performance optimization, and problem-solving allows me to deliver high-quality solutions that meet both user needs and business objectives.</p>
-            </div>
+        <!-- Add your image here -->
+        <!-- In the About Section -->
+        <div class="profile-container">
+            <img src="./assets/profile.jpg" alt="Profile Picture" class="profile-image animated">
         </div>
-    </section>
+        <div class="about-text">
+            <p>I'm a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js). With a keen eye for detail and a love for clean code, I create responsive and user-friendly web applications. I enjoy turning complex problems into simple, beautiful, and intuitive solutions. Whether it's crafting seamless user experiences on the frontend or building robust backend systems, I'm always excited to take on new challenges and learn emerging technologies.</p>
+        </div>
+    </div>
+</section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <h2>My Skills</h2>
         <div class="skills-grid">
+            <!-- Frontend Skills -->
             <div class="skill-card">
                 <i class="fab fa-html5"></i>
                 <h3>HTML5</h3>
@@ -80,43 +79,54 @@
                 <h3>React</h3>
             </div>
             <div class="skill-card">
-                <i class="fab fa-node"></i>
-                <h3>Node.js</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-mongodb"></i>
-                <h3>MongoDB</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fas fa-server"></i>
-                <h3>Express.js</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-react"></i>
-                <h3>React Native</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-git-alt"></i>
-                <h3>Git</h3>
+                <i class="fab fa-sass"></i>
+                <h3>Sass</h3>
             </div>
             <div class="skill-card">
                 <i class="fab fa-bootstrap"></i>
                 <h3>Bootstrap</h3>
             </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-card">
+                <i class="fab fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <h3>Express.js</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>REST APIs</h3>
+            </div>
+
+            <!-- Additional Tools & Technologies -->
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code-branch"></i>
+                <h3>Redux</h3>
+     
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <h2 class="fade-in">Sample Projects</h2>
+        <h2 class="fade-in">Projects</h2>
         <div class="project-grid">
             <!-- E-commerce Website -->
             <div class="project-card stagger-fade">
-                <img src="assets/e commerce.png" alt="E-commerce Website">
+                <img src="./assets/e commerce.png" alt="E-commerce Website">
                 <div class="project-content">
                     <h3>E-commerce Platform</h3>
-                    <p> ecommerce Website </p>
-            
+                    <p>E commerce Website </p>
                     <div class="project-links">
                         <a href="https://abdulferidm.github.io/e-commerce-website-/" class="live">Live Demo</a>
                         <a href="https://github.com/AbdulFeridM/e-commerce-website-" class="github">GitHub</a>
@@ -125,27 +135,30 @@
             </div>
             <!-- Calculator App -->
             <div class="project-card stagger-fade">
-                <img src="assets/modern calcutor.png" alt="Calculator App">
+                <img src="./assets/modern calcutor.png" alt="Calculator App">
                 <div class="project-content">
                     <h3>Modern Calculator</h3>
                     <p>Advanced calculator with scientific functions and theme customization.</p>
-                 
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">HTML5</span>
+                    </div>
                     <div class="project-links">
                         <a href="https://abdulferidm.github.io/Modern-Calculator/" class="live">Live Demo</a>
                         <a href="https://github.com/AbdulFeridM/Modern-Calculator" class="github">GitHub</a>
                     </div>
                 </div>
             </div>
-    
+
             <!-- Todo List App -->
             <div class="project-card stagger-fade">
-                <img src="assets/todo.png" alt="Todo List App">
+                <img src="./assets/todo.png" alt="Todo List App">
                 <div class="project-content">
-                    <h3>To-Do List</h3>
-                    <p>A comprehensive todo list application featuring task categories, priority levels, due date reminders, and progress tracking. </p>
-        
+                    <h3>To-Do List </h3>
+                    <p>Feature-rich todo application with categories, priorities, and reminders.</p>
                     <div class="project-links">
-                        <a href=" https://abdulferidm.github.io/To-Do-List/" class="live">Live Demo</a>
+                        <a href="https://abdulferidm.github.io/To-Do-List/" class="live">Live Demo</a>
                         <a href="https://github.com/AbdulFeridM/To-Do-List" class="github">GitHub</a>
                     </div>
                 </div>
@@ -178,12 +191,11 @@
     <!-- Footer -->
     <footer>
         <div class="social-links">
-            <a  href="https://github.com/AbdulFeridM" class="ab"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/abdul-ferid-musefa-175b86339/" class="ab"><i class="fab fa-linkedin"></i></a>
-            <a href="https://t.me/AbdulferidM" class="ab"><i class="fab fa-telegram"></i></a>
-            <a href="tel:+251947718404" class="ab"><i class="fas fa-phone"></i>+251947718404</a>
+            <a href="https://github.com/AbdulFeridM"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdul-ferid-musefa-175b86339/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://t.me/AbdulferidM"><i class="fab fa-telegram"></i></a>
         </div>
-        <p>&copy; 2025 AbdulFerid Musefa. All rights reserved.</p>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
